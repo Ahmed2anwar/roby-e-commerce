@@ -1,0 +1,129 @@
+:root {
+    --color-dark: #747474;
+    --color-light: #f2f2f2;
+    --color-white: #fff;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+   
+   
+}
+body,html{
+    scroll-behavior: initial !important;
+  }
+
+
+  
+/* Start navbar */
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+.navbar .navbar-nav .nav-link {
+    color: var(--color-dark);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.shop svg {
+    padding-top: 8px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.navbar .navbar-toggler {
+    color: black;
+    border: none;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+/* End navbar */
+
+/* start women sneakers  */
+
+.sneakers .item {
+    background-color: var(--color-light);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.sneakers .item img {
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+}
+.sneakers .item {
+    cursor: pointer;
+    background-color: var(--color-light);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.sneakers .item:hover {
+    transform: translatey(-0.45rem);
+    -webkit-transform: translatey(-0.45rem);
+    -moz-transform: translatey(-0.45rem);
+    -ms-transform: translatey(-0.45rem);
+    -o-transform: translatey(-0.45rem);
+}
+.sneakers .item a svg {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.sneakers .item a:hover svg {
+    transform: translatex(0.35rem);
+    -webkit-transform: translatex(0.35rem);
+    -moz-transform: translatex(0.35rem);
+    -ms-transform: translatex(0.35rem);
+    -o-transform: translatex(0.35rem);
+}
+
+/* end women sneakers  */
+  /* start shop  */
+
+.sneakers-page .sneaker-pg{
+    padding: .5rem 1rem;
+    margin: .20rem;
+    border: 1px solid #121212;
+    cursor: pointer;
+    transition: all .30s;
+    -webkit-transition: all .30s;
+    -moz-transition: all .30s;
+    -ms-transition: all .30s;
+    -o-transition: all .30s;
+}
+.sneakers-page .sneaker-pg:hover{
+    color: white;
+    
+    background-color: #121212;
+    
+}
+/* start shop  */
+
+/* Start Footer */
+footer ul li {
+    margin-top: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+}
+footer ul li a:hover {
+    color: black !important;
+}
+
+footer ul li a:hover svg {
+    cursor: pointer;
+    color: black !important;
+}
+/* End Footer */
